@@ -1,0 +1,1507 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'de' Physical Memory: 14198 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64826
+Successfully changed project path to: C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
+C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36860] Host "[IP] 172.21.11.151 [Port] 0 [Flags] 2 [Guid] 3906870013 [EditorId] 3906870013 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36860] Host "[IP] 172.21.11.151 [Port] 0 [Flags] 2 [Guid] 3906870013 [EditorId] 3906870013 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aregg/Documents/unity_projects/UVNF/UVNF/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7099 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007933 seconds.
+- Loaded All Assemblies, in  0.400 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.272 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (72ms)
+			TypeCache.Refresh (56ms)
+				TypeCache.ScanAssembly (44ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1693 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (103.5 KB). Loaded Objects now: 2163.
+Memory consumption went from 88.5 MB to 88.4 MB.
+Total: 4.211800 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.071000 ms MarkObjects: 3.722700 ms  DeleteObjects: 0.236800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 672028.194087 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972540142e140fc68cb20961266395b7') in 0.021034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 26.200517 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79778735cf050630307b45484ca9bd90') in 0.008856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 93.422145 seconds.
+  path: Assets/UVNF - ExampleResources/Audio/Boop.wav
+  artifactKey: Guid(c8fa33de6006b874dbe76170f373dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Audio/Boop.wav using Guid(c8fa33de6006b874dbe76170f373dc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3121d932d3ed50c6b5c2efb50df3afcd') in 0.082312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.857554 seconds.
+  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk.png
+  artifactKey: Guid(5a263f0efe0c15242bcc465bfaa22a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk.png using Guid(5a263f0efe0c15242bcc465bfaa22a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dde35f7f8c8a8dc28bafa4f881e3555') in 0.041819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 66.016115 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c101dc89f1c47805444178677cd731') in 0.010412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.244969 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e973d0c03fb8045f0317bddd15b6e9b') in 0.009833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 2.243724 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd20feb50c9aae1b999704a9a4f700') in 0.010620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 5.583205 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6513f2856368e81d26ee9d4544cbfaa0') in 0.009268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 5.672517 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3236948e83860857ea7090a0f6a92cc8') in 0.008917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 15.977855 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b27704460ac7eda58b87de19639693') in 0.008360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 1.110453 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52434156733870b7863562dbe358307c') in 0.009907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 5.387242 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3f3fdb6b78d9ab06bc60a0a945a3b5') in 0.008792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 10.476907 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b92c7f7c3a6435bb4b40139dce9703') in 0.010335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 3.649696 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04476b7bbb88c2e8f79816bd1228c1e') in 0.010360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 8.439323 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5f776aed5d0c9af9b89785a05ec66c') in 0.009012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 2.224566 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7596d8687763919eed38b79eb297d794') in 0.010369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 9.232226 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4797fa58605b82b4cd87eb43997b85bb') in 0.008785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 9.599326 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2a6d2c3a8535610b8e62049da662fc') in 0.010054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 4.190873 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4076ddd290123a95a39594d4735981') in 0.010120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 3.835214 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e626a1a955c08f0a83f503813d194e3') in 0.010197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.324 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 925ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (66.7 KB). Loaded Objects now: 2179.
+Memory consumption went from 88.9 MB to 88.8 MB.
+Total: 6.994500 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.082100 ms MarkObjects: 6.094400 ms  DeleteObjects: 0.349900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.360852 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1858e80c7f075eb5a46e9c6cd6b7e1b3') in 0.020169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 64.849598 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf86224886e66d2c2949e97a5810cf5') in 0.010173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 277.588648 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ae48075b29084cc0a638a59be1683a') in 0.009359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 40.228816 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5379ca8c20e46205b2703c2f52d284da') in 0.010280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.940727 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e6a33c92661b488e8637211a23e085') in 0.010547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 100.253072 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55faf4d6af5aa332deca4c74cdea75ba') in 0.009964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 12.376855 seconds.
+  path: Assets/UVNF/Scripts/Core/CoroutineManager.cs
+  artifactKey: Guid(817169f0daad72d43a2ec0a912af211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/Scripts/Core/CoroutineManager.cs using Guid(817169f0daad72d43a2ec0a912af211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec83a6fab0467ac39c121758ffa7fa2') in 0.000541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.876695 seconds.
+  path: Assets/UVNF/Scripts/Core/UVNFManager.cs
+  artifactKey: Guid(15b16b8d1586fbe4bbdbbb1bebc268f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/Scripts/Core/UVNFManager.cs using Guid(15b16b8d1586fbe4bbdbbb1bebc268f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c1afa8ff697eeca307a0760151c21') in 0.000556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 444.373600 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d3ecf8beb103d4784bdded5c99e58') in 0.011375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 11.147117 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12e7411387f1a8a4f8d22454a0cdc1') in 0.009824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.567148 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f3fdc708ee40a0cdf4fea4a5544706') in 0.010083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 81.629634 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ArgumentNullException: Value cannot be null.
+Parameter name: type
+  at UnityEngine.JsonUtility.FromJson (System.String json, System.Type type) [0x0001a] in <c89d400069fc43cbaded4dc7459ed9f0>:0 
+  at UVNF.Core.Serialization.SerializedData.Deserialize (UVNF.Core.Serialization.SerializedData sd) [0x0000c] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\Scripts\Core\Serialization\SerializedData.cs:24 
+  at UVNF.Entities.Containers.Variables.VariableManager.OnAfterDeserialize () [0x0000f] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\Scripts\Entities\Containers\Variables\VariableManager.cs:31 
+
+(Filename: Assets/UVNF/Scripts/Core/Serialization/SerializedData.cs Line: 24)
+
+ -> (artifact id: '7c0255c604e55e6411993b4baa1d83e9') in 0.014384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 55.503288 seconds.
+  path: Assets/UVNF - ExampleResources/Variables.asset
+  artifactKey: Guid(8135c98932746054fb760bd6ae2c6b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Variables.asset using Guid(8135c98932746054fb760bd6ae2c6b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3bea6e1842c6b8414bdb140dcca9c') in 0.001224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 631.373276 seconds.
+  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
+  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864cbe9a1fb3971b1d6911900279e362') in 0.029599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 24.304331 seconds.
+  path: Assets/UVNF/Scripts/Core/Serialization/SerializedData.cs
+  artifactKey: Guid(aca99d88e73746045a266b6b01692d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/Scripts/Core/Serialization/SerializedData.cs using Guid(aca99d88e73746045a266b6b01692d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b94023313188ad76a730482e98ee4') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.827924 seconds.
+  path: Assets/Editor/UVNF/Node Editor
+  artifactKey: Guid(87dd8876ba2c02b4692beaa9bcb5894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/UVNF/Node Editor using Guid(87dd8876ba2c02b4692beaa9bcb5894e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7bd58171893f3c0aa0d42abfb9b114') in 0.000782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.624403 seconds.
+  path: Assets/Editor/UVNF/Node Editor/CustomNodeEditors.cs
+  artifactKey: Guid(8d850d3ec53e14b4989311a3077decd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/UVNF/Node Editor/CustomNodeEditors.cs using Guid(8d850d3ec53e14b4989311a3077decd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db6e23556d590ad6754dc02461b362c') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 559.226907 seconds.
+  path: Assets/UVNF/Scripts/Core/Story/Base/StoryElement.cs
+  artifactKey: Guid(c35b2f7c4a5889e42bdc2840d4a10d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/Scripts/Core/Story/Base/StoryElement.cs using Guid(c35b2f7c4a5889e42bdc2840d4a10d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca7f7c7f63ddb71f6821a315cf2113c') in 0.000888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1813ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (69.2 KB). Loaded Objects now: 2182.
+Memory consumption went from 89.0 MB to 88.9 MB.
+Total: 5.594900 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.071200 ms MarkObjects: 5.155900 ms  DeleteObjects: 0.176600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.947 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (948ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (69.2 KB). Loaded Objects now: 2185.
+Memory consumption went from 89.2 MB to 89.1 MB.
+Total: 3.904600 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.061500 ms MarkObjects: 3.498700 ms  DeleteObjects: 0.152200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.1 KB). Loaded Objects now: 2188.
+Memory consumption went from 89.2 MB to 89.1 MB.
+Total: 4.638300 ms (FindLiveObjects: 0.205700 ms CreateObjectMapping: 0.071000 ms MarkObjects: 4.200200 ms  DeleteObjects: 0.159900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1397ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.2 KB). Loaded Objects now: 2191.
+Memory consumption went from 89.2 MB to 89.2 MB.
+Total: 5.427500 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.080700 ms MarkObjects: 4.866400 ms  DeleteObjects: 0.183700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1329ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (69.2 KB). Loaded Objects now: 2194.
+Memory consumption went from 89.2 MB to 89.2 MB.
+Total: 4.266700 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.070200 ms MarkObjects: 3.816600 ms  DeleteObjects: 0.152600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.526 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.907 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (69.2 KB). Loaded Objects now: 2197.
+Memory consumption went from 89.2 MB to 89.2 MB.
+Total: 6.054200 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.085800 ms MarkObjects: 5.437200 ms  DeleteObjects: 0.186700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.811 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.1 KB). Loaded Objects now: 2200.
+Memory consumption went from 89.2 MB to 89.2 MB.
+Total: 5.816600 ms (FindLiveObjects: 0.329500 ms CreateObjectMapping: 0.099200 ms MarkObjects: 5.220000 ms  DeleteObjects: 0.166500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.508 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.1 KB). Loaded Objects now: 2203.
+Memory consumption went from 89.2 MB to 89.2 MB.
+Total: 4.959200 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.072100 ms MarkObjects: 4.466900 ms  DeleteObjects: 0.203600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.541 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1414ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.2 KB). Loaded Objects now: 2206.
+Memory consumption went from 89.3 MB to 89.2 MB.
+Total: 4.087600 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.077100 ms MarkObjects: 3.644000 ms  DeleteObjects: 0.175500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1373ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (71.3 KB). Loaded Objects now: 2209.
+Memory consumption went from 89.3 MB to 89.2 MB.
+Total: 4.728600 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.059800 ms MarkObjects: 4.320000 ms  DeleteObjects: 0.168500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5394.589862 seconds.
+  path: Assets/UVNF/xNode
+  artifactKey: Guid(ed50fc9afb9c2714d872d98d1c69d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode using Guid(ed50fc9afb9c2714d872d98d1c69d54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679139c0660e7bb49d8def632d53dbb6') in 0.004023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.645667 seconds.
+  path: Assets/UVNF/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.770359 seconds.
+  path: Assets/UVNF/xNode/Scripts
+  artifactKey: Guid(657b15cb3ec32a24ca80faebf094d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts using Guid(657b15cb3ec32a24ca80faebf094d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cd34e00da61dbbf2220b8c084e63d3') in 0.000768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.445651 seconds.
+  path: Assets/UVNF/xNode/Scripts/Node.cs
+  artifactKey: Guid(f26231e5ab9368746948d0ea49e8178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/Node.cs using Guid(f26231e5ab9368746948d0ea49e8178a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5973dd5c8fbe776c3dfa4c1872883adb') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.548708 seconds.
+  path: Assets/UVNF/xNode/Scripts/NodeDataCache.cs
+  artifactKey: Guid(64ea6af1e195d024d8df0ead1921e517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/NodeDataCache.cs using Guid(64ea6af1e195d024d8df0ead1921e517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5644cf2e356efe0722174dc9ebb25') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.704087 seconds.
+  path: Assets/UVNF/xNode/Scripts/NodeGraph.cs
+  artifactKey: Guid(093f68ef2455d544fa2d14b80c811322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/NodeGraph.cs using Guid(093f68ef2455d544fa2d14b80c811322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec7e43eb6d92700df8ecce55bc3c556') in 0.000911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.500866 seconds.
+  path: Assets/UVNF/xNode/Scripts/NodePort.cs
+  artifactKey: Guid(7dd2f76ac25c6f44c9426dff3e7491a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/NodePort.cs using Guid(7dd2f76ac25c6f44c9426dff3e7491a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2ca5ea331529bc77ca99deffc54c78') in 0.000890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.344950 seconds.
+  path: Assets/UVNF/xNode/Scripts/Attributes
+  artifactKey: Guid(5644dfc7eed151045af664a9d4fd1906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/Attributes using Guid(5644dfc7eed151045af664a9d4fd1906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a0f3cebac441a834d990efbb90e69b') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.337711 seconds.
+  path: Assets/UVNF/xNode/Scripts/Attributes/NodeEnum.cs
+  artifactKey: Guid(10a8338f6c985854697b35459181af0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/Attributes/NodeEnum.cs using Guid(10a8338f6c985854697b35459181af0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1a10edc522775af03965dddf44fc6a') in 0.000998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.513343 seconds.
+  path: Assets/UVNF/xNode/Scripts/Editor
+  artifactKey: Guid(94d4fd78d9120634ebe0e8717610c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UVNF/xNode/Scripts/Editor using Guid(94d4fd78d9120634ebe0e8717610c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c3e6d6a647b21ed3ad4e8238e70235') in 0.000884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1673 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (67.1 KB). Loaded Objects now: 2212.
+Memory consumption went from 89.1 MB to 89.0 MB.
+Total: 4.134000 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.058800 ms MarkObjects: 3.720800 ms  DeleteObjects: 0.161300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

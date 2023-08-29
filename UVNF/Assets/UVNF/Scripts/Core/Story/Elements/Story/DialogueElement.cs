@@ -31,9 +31,12 @@ namespace UVNF.Core.Story.Dialogue
                 areaBackground.SetPixel(0, 0, Color.white);
                 areaBackground.Apply();
 
-                textAreaStyle = new GUIStyle("TextArea");
+                // textAreaStyle = new GUIStyle("TextArea");
+                // textAreaStyle = new GUIStyle(); // no string
+                textAreaStyle = new GUIStyle(EditorStyles.textArea);
                 textAreaStyle.richText = true;
-                textAreaStyle.normal.background = areaBackground;
+                // textAreaStyle.normal.background = areaBackground;
+                // textAreaStyle.wordWrap = true;
             }
 
             CharacterName = EditorGUILayout.TextField("Character", CharacterName);

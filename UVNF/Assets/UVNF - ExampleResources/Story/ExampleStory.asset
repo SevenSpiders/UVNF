@@ -752,6 +752,7 @@ MonoBehaviour:
     - Choice0
     - Choice1
     - Choice2
+    - Choice3
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2963486305234654957}
@@ -810,6 +811,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 1
       _dynamic: 1
+    - _fieldName: Choice3
+      _node: {fileID: -2963486305234654957}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: PreviousNode
+        node: {fileID: 299300065002464599}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 1
+      _dynamic: 1
   Active: 0
   Next: {fileID: 0}
   PreviousNode:
@@ -831,9 +844,10 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   Choices:
+  - option1
+  - option2
   - Vote this to yeet Velorexe off the earth.
-  - Option 1
-  - Option 3
+  - option4
   ShuffleChocies: 1
   HideDialogue: 0
 --- !u!114 &-2959676496126754392
@@ -1489,6 +1503,8 @@ MonoBehaviour:
   - {fileID: 7815111530212063091}
   - {fileID: 3964138587138135276}
   - {fileID: 5270346473795117227}
+  - {fileID: 5714462002862549412}
+  - {fileID: 5394393326462124603}
   StoryNames:
   - ExampleStory
 --- !u!114 &299300065002464599
@@ -1522,6 +1538,9 @@ MonoBehaviour:
         node: {fileID: -2963486305234654957}
         reroutePoints: []
       - fieldName: Choice2
+        node: {fileID: -2963486305234654957}
+        reroutePoints: []
+      - fieldName: Choice3
         node: {fileID: -2963486305234654957}
         reroutePoints: []
       _direction: 0
@@ -2164,7 +2183,7 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Jocelyn
   Character: {fileID: 21300000, guid: eaaf4d2d809493145b73c4f402b906db, type: 3}
-  Flip: 0
+  Flip: 1
   EnterFromDirection: 1
   FinalPosition: 1
   EnterTime: 2
@@ -2440,6 +2459,87 @@ MonoBehaviour:
     _dynamic: 0
   StoryName: ExampleStory
   IsRoot: 1
+--- !u!114 &5394393326462124603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e521cbea9de13974fa6f93bcb7fe9ae2, type: 3}
+  m_Name: Condition Element
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 11042.705, y: 414.20526}
+  ports:
+    keys:
+    - ConditionFails
+    - PreviousNode
+    - NextNode
+    values:
+    - _fieldName: ConditionFails
+      _node: {fileID: 5394393326462124603}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousNode
+      _node: {fileID: 5394393326462124603}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextNode
+      _node: {fileID: 5394393326462124603}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Active: 0
+  Next: {fileID: 0}
+  PreviousNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  ConditionFails:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  Variables: {fileID: 11400000, guid: 8135c98932746054fb760bd6ae2c6b39, type: 2}
+  VariableIndex: 0
+  NumberValue: 0
+  TextValue: 
+  BooleanValue: 0
 --- !u!114 &5640366496711102671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2505,6 +2605,68 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 54da592a2023b7d49b6eaa575b7aa54f, type: 3}
+--- !u!114 &5714462002862549412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3a75562b4f95147935acdf39324d46, type: 3}
+  m_Name: Affect Variable Element
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 10712, y: 296}
+  ports:
+    keys:
+    - PreviousNode
+    - NextNode
+    values:
+    - _fieldName: PreviousNode
+      _node: {fileID: 5714462002862549412}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextNode
+      _node: {fileID: 5714462002862549412}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Active: 0
+  Next: {fileID: 0}
+  PreviousNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  Variables: {fileID: 11400000, guid: 8135c98932746054fb760bd6ae2c6b39, type: 2}
+  VariableIndex: 0
+  NumberValue: 0
+  BooleanValue: 0
+  TextValue: 
 --- !u!114 &5783836291669240587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2906,5 +3068,9 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   CharacterName: Velorexe
-  Dialogue: Anyways, I'm pretty much done explaining right now. So you can see how
-    far you'll get before you miss any UVNF Elements.
+  Dialogue: 'This is a test
+
+    this is a new line
+
+    again another this is a
+    test this is a test this is a test'
