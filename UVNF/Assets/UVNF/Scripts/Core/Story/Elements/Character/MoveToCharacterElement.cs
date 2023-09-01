@@ -20,6 +20,7 @@ namespace UVNF.Core.Story.Character
         public string CharacterToMoveTo;
 
         public float MoveTime = 1f;
+        public bool Wait;
 
 #if UNITY_EDITOR
         public override void DisplayLayout(Rect layoutRect, GUIStyle label)
@@ -28,13 +29,19 @@ namespace UVNF.Core.Story.Character
             CharacterToMoveTo = EditorGUILayout.TextField("Character To Move To", CharacterToMoveTo);
 
             MoveTime = EditorGUILayout.FloatField("Move Time", MoveTime);
+            Wait = GUILayout.Toggle(Wait, "Wait");
         }
 #endif
 
         public override IEnumerator Execute(UVNFManager managerCallback, UVNFCanvas canvas)
         {
             managerCallback.CharacterManager.MoveCharacterTo(Character, CharacterToMoveTo, MoveTime);
-            return null;
+            float currentTime = 0f;
+            while (currentTime < MoveTime && Wait)
+            {
+                currentTime += Time.deltaTime;
+                yield return null;
+            }
         }
     }
 }

@@ -2,8 +2,8 @@
 {
     public enum VariableTypes
     {
-        String,
-        Number,
-        Boolean
+        String = 0,
+        Number = 1,
+        Boolean = 2
     }
 }

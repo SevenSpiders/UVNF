@@ -131,6 +131,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 54da592a2023b7d49b6eaa575b7aa54f, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &-7543352829120350252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,6 +265,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: eadcd8ba451196a4e8eef12ee6fb7209, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &-6664353289656554294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,6 +466,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: ebbf52845da71864ebe16bc4f6868a4e, type: 3}
+  characterData: {fileID: 11400000, guid: 1f9b8c20a0c8e554c943558f473ff840, type: 2}
+  pose: 1
 --- !u!114 &-5583132717968379321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,68 +534,6 @@ MonoBehaviour:
   CharacterName: Dummy_01
   ExitPosition: 1
   ExitTime: 1
---- !u!114 &-4202814567086290832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a47813dd5be49754e83f49e8ef99a6cf, type: 3}
-  m_Name: Start Element
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: -600, y: -8}
-  ports:
-    keys:
-    - PreviousNode
-    - NextNode
-    values:
-    - _fieldName: PreviousNode
-      _node: {fileID: -4202814567086290832}
-      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: NextNode
-      _node: {fileID: -4202814567086290832}
-      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-      connections:
-      - fieldName: PreviousNode
-        node: {fileID: 2759896806774999601}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-  Active: 0
-  Next: {fileID: 2759896806774999601}
-  PreviousNode:
-    _fieldName: 
-    _node: {fileID: 0}
-    _typeQualifiedName: 
-    connections: []
-    _direction: 0
-    _connectionType: 0
-    _typeConstraint: 0
-    _dynamic: 0
-  NextNode:
-    _fieldName: 
-    _node: {fileID: 0}
-    _typeQualifiedName: 
-    connections: []
-    _direction: 0
-    _connectionType: 0
-    _typeConstraint: 0
-    _dynamic: 0
-  StoryName: OpeningSequence
-  IsRoot: 1
 --- !u!114 &-3599330920068850453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -844,10 +788,10 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   Choices:
-  - option1
-  - option2
   - Vote this to yeet Velorexe off the earth.
+  - option1
   - option4
+  - option2
   ShuffleChocies: 1
   HideDialogue: 0
 --- !u!114 &-2959676496126754392
@@ -1046,6 +990,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 1cdd78d85483bfb41892664f40affae2, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &-2022572691547937303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,7 +1056,7 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   CharacterName: Velorexe
-  Character: {fileID: 21300000, guid: 54da592a2023b7d49b6eaa575b7aa54f, type: 3}
+  Character: {fileID: 1785517931, guid: b7329fd2f7652d749a8eaf17f92bddf8, type: 3}
   Flip: 1
   EnterFromDirection: 0
   FinalPosition: 2
@@ -1505,6 +1451,7 @@ MonoBehaviour:
   - {fileID: 5270346473795117227}
   - {fileID: 5714462002862549412}
   - {fileID: 5394393326462124603}
+  - {fileID: 4249008219656854883}
   StoryNames:
   - ExampleStory
 --- !u!114 &299300065002464599
@@ -1854,6 +1801,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 5a263f0efe0c15242bcc465bfaa22a6c, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &2759896806774999601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1923,7 +1872,7 @@ MonoBehaviour:
   ShowLoadScreen: 1
   FadeOutTime: 0.001
   FadeOtherElements: 0
-  WaitToFinish: 1
+  WaitToFinish: 0
 --- !u!114 &2774417702196442724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,6 +1938,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 2a468122556fe124199e9a04071c8381, type: 3}
+  characterData: {fileID: 11400000, guid: 1f9b8c20a0c8e554c943558f473ff840, type: 2}
+  pose: 0
 --- !u!114 &3219563264312694754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2054,6 +2005,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 5a263f0efe0c15242bcc465bfaa22a6c, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &3964138587138135276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2187,6 +2140,63 @@ MonoBehaviour:
   EnterFromDirection: 1
   FinalPosition: 1
   EnterTime: 2
+--- !u!114 &4249008219656854883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b870d1dd08495d449acf79d113818bd0, type: 3}
+  m_Name: Ice Block Game Element
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3937.714, y: 254.48444}
+  ports:
+    keys:
+    - PreviousNode
+    - NextNode
+    values:
+    - _fieldName: PreviousNode
+      _node: {fileID: 4249008219656854883}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextNode
+      _node: {fileID: 4249008219656854883}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Active: 0
+  Next: {fileID: 0}
+  PreviousNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
 --- !u!114 &4313989843891065248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2605,6 +2615,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 54da592a2023b7d49b6eaa575b7aa54f, type: 3}
+  characterData: {fileID: 11400000, guid: 1f9b8c20a0c8e554c943558f473ff840, type: 2}
+  pose: 0
 --- !u!114 &5714462002862549412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,7 +2747,7 @@ MonoBehaviour:
     I've decided to release it a bit earlier than I intended to.
   Beep: 1
   BeepOnVowel: 1
-  PitchShift: 1
+  PitchShift: 0
   MaxPitch: 0.2
   BoopSoundEffect: {fileID: 8300000, guid: c8fa33de6006b874dbe76170f373dc23, type: 3}
   DialogueClip: {fileID: 0}
@@ -2939,6 +2951,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: 5a263f0efe0c15242bcc465bfaa22a6c, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &7487686641615215702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,6 +3018,8 @@ MonoBehaviour:
     _dynamic: 0
   CharacterName: Velorexe
   NewSprite: {fileID: 21300000, guid: eadcd8ba451196a4e8eef12ee6fb7209, type: 3}
+  characterData: {fileID: 0}
+  pose: 0
 --- !u!114 &7815111530212063091
 MonoBehaviour:
   m_ObjectHideFlags: 0

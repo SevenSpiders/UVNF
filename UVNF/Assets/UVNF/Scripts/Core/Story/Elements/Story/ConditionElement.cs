@@ -31,11 +31,21 @@ namespace UVNF.Core.Story.Dialogue
 #if UNITY_EDITOR
         public override void DisplayLayout(Rect layoutRect, GUIStyle label)
         {
-            Variables = EditorGUILayout.ObjectField("Variables", Variables, typeof(VariableManager), false) as VariableManager;
-            if (Variables != null && Variables.Variables.Count > 0)
-            {
-                VariableIndex = EditorGUILayout.Popup(VariableIndex, Variables.VariableNames());
-            }
+            // Variables = EditorGUILayout.ObjectField("Variables", Variables, typeof(VariableManager), false) as VariableManager;
+            // if (Variables != null && Variables.Variables.Count > 0)
+            // {
+            //     VariableIndex = EditorGUILayout.Popup(VariableIndex, Variables.VariableNames());
+            // }
+            if (!BooleanValue)
+                AddPort();
+            
+            
+
+        }
+
+        public void AddPort() {
+            BooleanValue = true;
+            AddDynamicOutput(typeof(NodePort), ConnectionType.Override, TypeConstraint.Inherited, "TESSST");
         }
 #endif
 

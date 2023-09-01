@@ -27,6 +27,7 @@ namespace UVNF.Core.Story
         [Input(ShowBackingValue.Never, ConnectionType.Multiple)] public NodePort PreviousNode;
         [HideInInspector]
         [Output(ShowBackingValue.Never, ConnectionType.Override)] public NodePort NextNode;
+        [Output(ShowBackingValue.Never, ConnectionType.Override)] public NodePort TestNode;
 
         public override object GetValue(NodePort port)
         {

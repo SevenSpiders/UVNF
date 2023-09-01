@@ -15,7 +15,7 @@ C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64578
+60465
 Successfully changed project path to: C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
 C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/aregg/Documents/unity_projects/UVNF/UVNF
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13612] Host "[IP] 172.21.11.151 [Port] 0 [Flags] 2 [Guid] 357347597 [EditorId] 357347597 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25612] Host "[IP] 10.40.188.6 [Port] 0 [Flags] 2 [Guid] 3909104730 [EditorId] 3909104730 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13612] Host "[IP] 172.21.11.151 [Port] 0 [Flags] 2 [Guid] 357347597 [EditorId] 357347597 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25612] Host "[IP] 10.40.188.6 [Port] 0 [Flags] 2 [Guid] 3909104730 [EditorId] 3909104730 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-JMDGLCBC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 4.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009156 seconds.
-- Loaded All Assemblies, in  0.423 seconds
+Registered in 0.009876 seconds.
+- Loaded All Assemblies, in  0.579 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.338 seconds
-Domain Reload Profiling: 759ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 947ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (179ms)
-		LoadAssemblies (115ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (222ms)
+				TypeCache.ScanAssembly (202ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (338ms)
+	FinalizeReload (371ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (284ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (178ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,55 +116,56 @@ Domain Reload Profiling: 759ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.598 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.593 seconds
-Domain Reload Profiling: 1189ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (227ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (301ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (79ms)
-			TypeCache.Refresh (64ms)
-				TypeCache.ScanAssembly (51ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (594ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (60ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (731ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (537ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (261ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1693 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (103.5 KB). Loaded Objects now: 2162.
-Memory consumption went from 88.5 MB to 88.4 MB.
-Total: 4.512900 ms (FindLiveObjects: 0.199600 ms CreateObjectMapping: 0.086200 ms MarkObjects: 4.017200 ms  DeleteObjects: 0.208600 ms)
+Unloading 1714 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (121.9 KB). Loaded Objects now: 2180.
+Memory consumption went from 90.7 MB to 90.5 MB.
+Total: 5.316200 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.072300 ms MarkObjects: 4.682700 ms  DeleteObjects: 0.337900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -172,22 +173,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 671661.534134 seconds.
-  path: Assets/UVNF - ExampleResources/Scenes
-  artifactKey: Guid(5686691d948eabb4bac1903d91ec4130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UVNF - ExampleResources/Scenes using Guid(5686691d948eabb4bac1903d91ec4130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce95ff5ada1430b8fa6d9d7b30ead43') in 0.002841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.364 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.485 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -205,46 +199,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.715 seconds
-Domain Reload Profiling: 1077ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  0.867 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (212ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (271ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (716ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (867ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (217ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (72.4 KB). Loaded Objects now: 2165.
-Memory consumption went from 84.9 MB to 84.8 MB.
-Total: 6.542700 ms (FindLiveObjects: 0.415700 ms CreateObjectMapping: 0.204600 ms MarkObjects: 5.670200 ms  DeleteObjects: 0.249500 ms)
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.2 KB). Loaded Objects now: 2183.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 5.514100 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.071300 ms MarkObjects: 5.172800 ms  DeleteObjects: 0.088600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -262,938 +256,548 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 188.062679 seconds.
-  path: Assets/Editor/UVNF/EditorWindowExtended.cs
-  artifactKey: Guid(9e5bb8d2c65f6e6498c4a3442f9ee327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/EditorWindowExtended.cs using Guid(9e5bb8d2c65f6e6498c4a3442f9ee327) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bf13423fec00d2b1b54e7f366f7e1433') in 0.124403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '97b6697af79dc6f44950e728913fbcdd') in 0.012723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Excited.png
-  artifactKey: Guid(47caa48f71f31204ab291cca6b056211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Excited.png using Guid(47caa48f71f31204ab291cca6b056211) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '359fba52b7c261842b3744c04a078620') in 0.077020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UVNF/xNode/Scripts/NodePort.cs
-  artifactKey: Guid(7dd2f76ac25c6f44c9426dff3e7491a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/NodePort.cs using Guid(7dd2f76ac25c6f44c9426dff3e7491a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8078c2382e254b02453c5fa6d16c9d67') in 0.016709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UVNF/TextMesh Pro/Sprites/EmojiOne.json
-  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7840e13c5e47f7164099bc039f27459c') in 0.016287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF/Sprites/UI/BasicSprite.png
-  artifactKey: Guid(8d2141d0c9a50cf47bea402d9eeb798b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Sprites/UI/BasicSprite.png using Guid(8d2141d0c9a50cf47bea402d9eeb798b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ecfe9267499e554e3a5bbdf0b46d10d') in 0.043344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Explaining.png
-  artifactKey: Guid(e70a5b6a9bafdf845872f8a81f34982b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Explaining.png using Guid(e70a5b6a9bafdf845872f8a81f34982b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '30d191a122484ea5868c45ac0b4d51ef') in 0.039901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UVNF - ExampleResources/Story/ExampleStory.asset
-  artifactKey: Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Story/ExampleStory.asset using Guid(ce9cd3799bc9bc34794cd3d8e3ec9e0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '041a4e856c88dc47d8ef0b028242f325') in 0.138848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 54
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Excited_Eyes_Closed.png
-  artifactKey: Guid(e5b9d6eaa36271148acc1dc16ae49004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Excited_Eyes_Closed.png using Guid(e5b9d6eaa36271148acc1dc16ae49004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6d2c4993fb61cccba62842fd5e243c8a') in 0.049381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk.png
-  artifactKey: Guid(5a263f0efe0c15242bcc465bfaa22a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk.png using Guid(5a263f0efe0c15242bcc465bfaa22a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9c0f1beeb790040eeb24a15966d0cef3') in 0.043411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Explaining_Confused.png
-  artifactKey: Guid(0e8f4bc2088f37642871ce357c3c6243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Explaining_Confused.png using Guid(0e8f4bc2088f37642871ce357c3c6243) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '381fd57caa5e72bd87bf50f6febff6a7') in 0.046547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Slight_Talk_Eyes_Closed.png
-  artifactKey: Guid(d21e29dd930e6374993b0f9db9b06df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Slight_Talk_Eyes_Closed.png using Guid(d21e29dd930e6374993b0f9db9b06df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '39a3ddfd6f973862aa04ecb7bccc8070') in 0.049415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF/xNode/Scripts/Node.cs
-  artifactKey: Guid(f26231e5ab9368746948d0ea49e8178a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Node.cs using Guid(f26231e5ab9368746948d0ea49e8178a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c3e3f75c97cc1371d3db334a87e1fe4e') in 0.021585 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF/Prefabs/GameManager.prefab
-  artifactKey: Guid(19e2e4406c5853a498865440543889a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Prefabs/GameManager.prefab using Guid(19e2e4406c5853a498865440543889a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '21d4c0f1118701b95c03f01f037ddb93') in 0.030709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Interested.png
-  artifactKey: Guid(914e06d452b5f3a4ab4b46357b8783ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Interested.png using Guid(914e06d452b5f3a4ab4b46357b8783ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '35c4a63d7f3ef7b3e3a26a772d9b6f54') in 0.037490 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UVNF - ExampleResources/Audio/Velorexe - Calming Worlds.mp3
-  artifactKey: Guid(73e58990e9e6190488725f517f799d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Audio/Velorexe - Calming Worlds.mp3 using Guid(73e58990e9e6190488725f517f799d00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5c6e684972da08b1f177520f071aa2e') in 0.104064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk_OpenMouth.png
-  artifactKey: Guid(54da592a2023b7d49b6eaa575b7aa54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk_OpenMouth.png using Guid(54da592a2023b7d49b6eaa575b7aa54f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f661d73aac1d8f7ef8ab6c96f1e28d11') in 0.042349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UVNF/Prefabs/ChoiceButton.prefab
-  artifactKey: Guid(464260446288b4c4f8009482169ccf35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Prefabs/ChoiceButton.prefab using Guid(464260446288b4c4f8009482169ccf35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8d04e16c5a1d4e3e1666bfd252ff20ae') in 0.094839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UVNF/Scripts/Extensions/ListExtensions.cs
-  artifactKey: Guid(99cbfe9918db5404a8b9454019c8d96b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Extensions/ListExtensions.cs using Guid(99cbfe9918db5404a8b9454019c8d96b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '34bc6bfbf732482890dee4941512f398') in 0.021638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Sly_Talk.png
-  artifactKey: Guid(78382eb7101189f41b42f974454aacab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Sly_Talk.png using Guid(78382eb7101189f41b42f974454aacab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '621bfd707949472b19202782eaf5bbcc') in 0.038338 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Talk_EyeClosed.png
-  artifactKey: Guid(ab0a28ceae1ff6e44947f0fdc1b0d59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Talk_EyeClosed.png using Guid(ab0a28ceae1ff6e44947f0fdc1b0d59d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ca0daab63de8eb9264029b95826abb1a') in 0.043020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile.png
-  artifactKey: Guid(eaaf4d2d809493145b73c4f402b906db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile.png using Guid(eaaf4d2d809493145b73c4f402b906db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '26fb24d4296ee9f781077444a6ef11bc') in 0.045795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile_Sly_Closed.png
-  artifactKey: Guid(4a4df1ce1b4b2c748981856482690b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile_Sly_Closed.png using Guid(4a4df1ce1b4b2c748981856482690b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b4d88759029926a04860f200cd07e15') in 0.039713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UVNF - ExampleResources/Prefabs/Particles/Sakura Leaves.prefab
-  artifactKey: Guid(6eb2644da372a024d8e21b52020369b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Prefabs/Particles/Sakura Leaves.prefab using Guid(6eb2644da372a024d8e21b52020369b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '547e4b503e4450e8b8d894c93c38b44d') in 0.118124 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UVNF/Scenes/MainScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '826498ec50147759f4144e3d8a88e0a3') in 0.021184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Interested.png
-  artifactKey: Guid(79f8346a08849514c9f469dc18f23c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Interested.png using Guid(79f8346a08849514c9f469dc18f23c83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '217212caa62b87668ca94a2895e0c7a3') in 0.039714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UVNF - ExampleResources/Backgrounds/Busy_Street.png
-  artifactKey: Guid(f186ed4ded9fe394cb8da1ec94f214ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Backgrounds/Busy_Street.png using Guid(f186ed4ded9fe394cb8da1ec94f214ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6545377c31a9a030ee059f107f5e3c0b') in 0.053332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Talk_Explaining_Confused.png
-  artifactKey: Guid(28b3e725731212442b28a7ae15f5071f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Talk_Explaining_Confused.png using Guid(28b3e725731212442b28a7ae15f5071f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '718adc068438f02ae6208935abfda10d') in 0.048754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.007439 seconds.
-  path: Assets/Editor/UVNF/Settings/UVNFEditorSettings.cs
-  artifactKey: Guid(f06c8a24dbdc7f14a986ba93631864f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/Settings/UVNFEditorSettings.cs using Guid(f06c8a24dbdc7f14a986ba93631864f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6756478d0c61ecaed535ace97d1d6ae0') in 0.018882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Judging.png
-  artifactKey: Guid(97413f8bd76b3de4b809d40d521227fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Judging.png using Guid(97413f8bd76b3de4b809d40d521227fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '631626a56da18eb0a2f57e3e5240591f') in 0.049798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Disagree_Talk.png
-  artifactKey: Guid(d360fb5fd9b7cb74e9782193c45861cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Disagree_Talk.png using Guid(d360fb5fd9b7cb74e9782193c45861cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '44d718f04155e124d4391dbdf80e7a9c') in 0.044929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Fonts & Materials/Calamity-Regular SDF.asset
-  artifactKey: Guid(291a5158fa2794d4aaf693501ea403c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Fonts & Materials/Calamity-Regular SDF.asset using Guid(291a5158fa2794d4aaf693501ea403c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'adf11bcacc4ebe3cd81116328e9218ec') in 0.050711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Utility.png
-  artifactKey: Guid(f90c382e60a6bce4eaccd55dc05444f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Utility.png using Guid(f90c382e60a6bce4eaccd55dc05444f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '956eac09c65e5b572910a35f5d5b0e36') in 0.044476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UVNF/Scripts/Entities/Containers/StoryGraph.cs
-  artifactKey: Guid(33ec3a53a2560434c9140ef0b6322f96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Entities/Containers/StoryGraph.cs using Guid(33ec3a53a2560434c9140ef0b6322f96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7d3047bf7aeb3a74586608cff5514e82') in 0.020942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Character.png
-  artifactKey: Guid(8007769594dfe454986c790e450f28a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Character.png using Guid(8007769594dfe454986c790e450f28a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '20064395f929365c536a26ba53be062e') in 0.044575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Judging.png
-  artifactKey: Guid(5fe5a45e800b701458658b6c456d708b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Judging.png using Guid(5fe5a45e800b701458658b6c456d708b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e7f14aab62fd226e8bd781b8646253c') in 0.042432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Joy_Open_Eyes.png
-  artifactKey: Guid(3bf4d9778771fa5499f99350231e188e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Joy_Open_Eyes.png using Guid(3bf4d9778771fa5499f99350231e188e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2306da5cd0c0bce84443154e062a813f') in 0.048586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Listening.png
-  artifactKey: Guid(e5772eb96c1d38b47907d72a22a2a655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Listening.png using Guid(e5772eb96c1d38b47907d72a22a2a655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a57f20c36b7c9dcb685b6d76de03b526') in 0.046699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UVNF/TextMesh Pro/Sprites/EmojiOne Attribution.txt
-  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2df621c2a04bbb835a7c1d3b8d98f44f') in 0.020036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Explaining.png
-  artifactKey: Guid(91b5b56df83b0d84d914aae8cc8336c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Explaining.png using Guid(91b5b56df83b0d84d914aae8cc8336c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f77f711dd655a993e72ecf630fdf9a0f') in 0.039573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c393b8ac4a32a2a8f890e0cf48f5aa56') in 0.056073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7a75714949e19ba21d645fefed27727b') in 0.018983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c9f8145b97668fb61a48e95296a54ce7') in 0.040370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UVNF - ExampleResources/Audio/Velorexe - Piano Chords.mp3
-  artifactKey: Guid(458264081ec2a1d4d94436767c8ed1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Audio/Velorexe - Piano Chords.mp3 using Guid(458264081ec2a1d4d94436767c8ed1c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7f1237d5895a99f5759cbba3eccca6f3') in 0.082658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
-  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '747157df3c37e288a7976a8b1326e253') in 0.025908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UVNF/xNode/Scripts/Attributes/NodeEnum.cs
-  artifactKey: Guid(10a8338f6c985854697b35459181af0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Attributes/NodeEnum.cs using Guid(10a8338f6c985854697b35459181af0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd22661aa6bce28a75e8369977f272b5') in 0.018412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditorUtilities.cs
-  artifactKey: Guid(120960fe5b50aba418a8e8ad3c4c4bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditorUtilities.cs using Guid(120960fe5b50aba418a8e8ad3c4c4bc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a10725e6411e7731e4d304caf8996bb5') in 0.021738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditor.cs
-  artifactKey: Guid(712c3fc5d9eeb4c45b1e23918df6018f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditor.cs using Guid(712c3fc5d9eeb4c45b1e23918df6018f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e8d27c893e91240514237da53179525f') in 0.018842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditorPreferences.cs
-  artifactKey: Guid(6b1f47e387a6f714c9f2ff82a6888c85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditorPreferences.cs using Guid(6b1f47e387a6f714c9f2ff82a6888c85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '894e1a0d81d6dd6cd8dd0d1761fee9e6') in 0.023195 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeGraphEditor.cs
-  artifactKey: Guid(ddcbb5432255d3247a0718b15a9c193c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeGraphEditor.cs using Guid(ddcbb5432255d3247a0718b15a9c193c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ab44cd254816e18aa68f1a639cf1ae83') in 0.017604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditorGUILayout.cs
-  artifactKey: Guid(1d6c2d118d1c77948a23f2f4a34d1f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditorGUILayout.cs using Guid(1d6c2d118d1c77948a23f2f4a34d1f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'efb9daa7423a403c650c113d4667f1f4') in 0.018415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditorBase.cs
-  artifactKey: Guid(e85122ded59aceb4eb4b1bd9d9202642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditorBase.cs using Guid(e85122ded59aceb4eb4b1bd9d9202642) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2e661bde78b1ef389e79969a409a3d07') in 0.020810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF - ExampleResources/Prefabs/Particles/Sprites/Leaf.tif
-  artifactKey: Guid(f596e2598310a1c45b35a66875316ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Prefabs/Particles/Sprites/Leaf.tif using Guid(f596e2598310a1c45b35a66875316ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a5556a222a974edc294bede93baaba9') in 0.041793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
-  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '912de28755bdf4c39b9a5d0d12993fe8') in 0.028955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/UVNF/Sprites/UI/ButtonSprite.png
-  artifactKey: Guid(720f34e7199b60c419592fc33ac897ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Sprites/UI/ButtonSprite.png using Guid(720f34e7199b60c419592fc33ac897ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '444f74a2f881d7edc9ec108a3f0ce116') in 0.060453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Other.png
-  artifactKey: Guid(ed79adc4558e1f440b1277d245c63de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Other.png using Guid(ed79adc4558e1f440b1277d245c63de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4dbb8139348427925b0b73b793d6f179') in 0.044162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Talk_Explaining.png
-  artifactKey: Guid(a21923c430e2a6a42a54f575ff78ea2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Talk_Explaining.png using Guid(a21923c430e2a6a42a54f575ff78ea2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '244a4500742276c04a3ad1f56b0e2585') in 0.043749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '99c9849bc036ac0f3b435ec2f9fe7cde') in 0.026133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/UVNF/Scripts/Core/UI/UVNFCanvas.cs
-  artifactKey: Guid(e251da0af74e44142adbdd6845038475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/UI/UVNFCanvas.cs using Guid(e251da0af74e44142adbdd6845038475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9db5345b476a77766521440270de44c') in 0.018916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UVNF/Prefabs/AudioManager.prefab
-  artifactKey: Guid(78412cd1166f49d439874dbc2cb8338d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Prefabs/AudioManager.prefab using Guid(78412cd1166f49d439874dbc2cb8338d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '056800990580dad5d82ee06f2821f67d') in 0.019343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UVNF/Scripts/Core/UI/UVNFMainMenu.cs
-  artifactKey: Guid(3a4aaea85ca1fa14182180a497057966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/UI/UVNFMainMenu.cs using Guid(3a4aaea85ca1fa14182180a497057966) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f49dfc3a9021f03a47ca571e06784bac') in 0.018483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Other/Start.png
-  artifactKey: Guid(71062d4c6daf18c489b0fb28bb78b7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Other/Start.png using Guid(71062d4c6daf18c489b0fb28bb78b7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c474dc7701e9fd7fecd69855bd3237f') in 0.036153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Enter Scene.png
-  artifactKey: Guid(da93028a6eeeeaf428a0abd2c84f3d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Enter Scene.png using Guid(da93028a6eeeeaf428a0abd2c84f3d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '66a0cdbb49ee699380e31516cc8933d3') in 0.036797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/ChangeSprite.png
-  artifactKey: Guid(dab1e3bee17f4b34bb982ad221c1f765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/ChangeSprite.png using Guid(dab1e3bee17f4b34bb982ad221c1f765) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1be0bd31e7ea6095fa7e538e17ce149') in 0.038105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UVNF/Scripts/Entities/Containers/Variables/Variable.cs
-  artifactKey: Guid(8be499cd9c998ac4a9295685a74d936e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Entities/Containers/Variables/Variable.cs using Guid(8be499cd9c998ac4a9295685a74d936e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e0601b9b65e330c7a324a07787adc921') in 0.018200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Audio/Sound Effect.png
-  artifactKey: Guid(b41343c389cb88e499c348ca95581e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Audio/Sound Effect.png using Guid(b41343c389cb88e499c348ca95581e40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '90a4ecd6eb24faa39c48e89924e1e338') in 0.043025 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Audio/Stop Audio.png
-  artifactKey: Guid(2ca2a2263b4d4f945947409212feb24e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Audio/Stop Audio.png using Guid(2ca2a2263b4d4f945947409212feb24e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bb3c6d915440dbd965efe1136a77d1c1') in 0.032160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/Resources/xnode_dot.png
-  artifactKey: Guid(75a1fe0b102226a418486ed823c9a7fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/Resources/xnode_dot.png using Guid(75a1fe0b102226a418486ed823c9a7fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2c7f1db31effd2c7ff58173cc75a0087') in 0.042379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Move To Character.png
-  artifactKey: Guid(34118a3ddd9e38f4eb9a85772ba2888b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Move To Character.png using Guid(34118a3ddd9e38f4eb9a85772ba2888b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '179a50985e320e259612a0933a3f3753') in 0.038826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Exit Scene.png
-  artifactKey: Guid(a047021fd3dc9784c930f45ca49beed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Character/Exit Scene.png using Guid(a047021fd3dc9784c930f45ca49beed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e0d72a35428ccea2ce93fbac1a7d94f8') in 0.033316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/NodeEditorAssetModProcessor.cs
-  artifactKey: Guid(e515e86efe8160243a68b7c06d730c9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/NodeEditorAssetModProcessor.cs using Guid(e515e86efe8160243a68b7c06d730c9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '41130ada4047251d1446ffad926f9a3e') in 0.020433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Story/Audio Dialogue.png
-  artifactKey: Guid(17940bd642e7b6842b0eb7fbdd9e90ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Story/Audio Dialogue.png using Guid(17940bd642e7b6842b0eb7fbdd9e90ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a82495ee1197e0f46f4f64b39b3414ca') in 0.033890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UVNF/Prefabs/MainCanvas.prefab
-  artifactKey: Guid(795e0092d39ea594fbea9f7958d8fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Prefabs/MainCanvas.prefab using Guid(795e0092d39ea594fbea9f7958d8fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c2c17f980f8c0a603dc64eb85a1b885b') in 0.062925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 104
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/UVNF/TextMesh Pro/Fonts/Calamity-Regular.otf
-  artifactKey: Guid(cc1ef9ffff308364fb528bbab8fa8db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Fonts/Calamity-Regular.otf using Guid(cc1ef9ffff308364fb528bbab8fa8db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ef5d4499c4af7de4e38aa03d93ccf87f') in 0.026921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Explaining_Interested.png
-  artifactKey: Guid(298003a88ed7b5f4e930baec6ada88e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Explaining_Interested.png using Guid(298003a88ed7b5f4e930baec6ada88e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5b9183b5dc42ba16328f7d0498d2999d') in 0.038130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Story.png
-  artifactKey: Guid(fd1e95d5c573fe549b74bc8473fc43eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Story.png using Guid(fd1e95d5c573fe549b74bc8473fc43eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fa6de3fbd1f2172b1232c70d53dd832c') in 0.040390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Utility/SpawnObjectElement.cs
-  artifactKey: Guid(fc8c1f10e2849f8459929005181ff6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Utility/SpawnObjectElement.cs using Guid(fc8c1f10e2849f8459929005181ff6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f457a6b42d47d32152218cd22bc2bc3e') in 0.020922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Story/AudioDialogueElement.cs
-  artifactKey: Guid(adabf642a00adb64f98845666fedcc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Story/AudioDialogueElement.cs using Guid(adabf642a00adb64f98845666fedcc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67ae18671d716a387d082375145ddfbc') in 0.018814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Scenery/ChangeBackgroundElement.cs
-  artifactKey: Guid(61fe714cebce5fe4ba0b71d53f36fade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Scenery/ChangeBackgroundElement.cs using Guid(61fe714cebce5fe4ba0b71d53f36fade) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b18087205dcc0c523592aac1c168965b') in 0.018572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Other/StartElement.cs
-  artifactKey: Guid(28096adb5a549224d872e6b42438827f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Other/StartElement.cs using Guid(28096adb5a549224d872e6b42438827f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '78cb7e313974c363192e6092ceb50385') in 0.019500 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Audio/BackgroundMusicElement.cs
-  artifactKey: Guid(3a3ce2b406697714681ce456f5424af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Audio/BackgroundMusicElement.cs using Guid(3a3ce2b406697714681ce456f5424af4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f21f1f1c443dcad3a6a4b5248c0a88be') in 0.020258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Other/LogElement.cs
-  artifactKey: Guid(4b90670ceb2b4bc47861dd6a43ce8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Other/LogElement.cs using Guid(4b90670ceb2b4bc47861dd6a43ce8cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a69d02b7eb012a40bad6947a30aa7f8') in 0.019645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt
-  artifactKey: Guid(8165767f64da7d94e925f61a38da668c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeGraphTemplate.cs.txt using Guid(8165767f64da7d94e925f61a38da668c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ddbd2d3c0f05ffa181e83ccd531e7fb') in 0.017903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Audio/StopAudio.cs
-  artifactKey: Guid(a46a913e3ea88bd418a6b3fa6c63716c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Audio/StopAudio.cs using Guid(a46a913e3ea88bd418a6b3fa6c63716c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f8e401f690fcd4469f49eb774e05b5b8') in 0.023465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UVNF/Sprites/UI/Logo.png
-  artifactKey: Guid(b3e44d4cabdece74bb72943a85f4145b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Sprites/UI/Logo.png using Guid(b3e44d4cabdece74bb72943a85f4145b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d49bd04af125c4e501c0e51d98df4a5') in 0.040114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5280e061049df1c3029914e79ecb05f4') in 0.022673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile_Bored_Talk.png
-  artifactKey: Guid(dd3197a977996d64ea46041c6da582cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Smile_Bored_Talk.png using Guid(dd3197a977996d64ea46041c6da582cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8221bcfbc543454d66752c28ee5cbeb3') in 0.042271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Thinking_Talk.png
-  artifactKey: Guid(d4da063dcb587994e89ff40de0f73e01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Thinking_Talk.png using Guid(d4da063dcb587994e89ff40de0f73e01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a79b6991973f51d9c14a504235e3d7cb') in 0.043802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Uninterested.png
-  artifactKey: Guid(6affb2033bb4fb2419f855ded3d1a4fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Uninterested.png using Guid(6affb2033bb4fb2419f855ded3d1a4fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd8857dcd555d31199abb4bd48b6fc618') in 0.037444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/UVNF/Scripts/Core/Story/Elements/Story/ChoiceElement.cs
-  artifactKey: Guid(e5078e2883b71e7438a5d965f15f77c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Scripts/Core/Story/Elements/Story/ChoiceElement.cs using Guid(e5078e2883b71e7438a5d965f15f77c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5993bf369b8e3db67955159ffb68f8fb') in 0.020166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UVNF/Animations/MainLogoAnim1.anim
-  artifactKey: Guid(3f4885c42e6d3904881221e0b9abc594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Animations/MainLogoAnim1.anim using Guid(3f4885c42e6d3904881221e0b9abc594) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0162dfea012dfa25caa638f152c3b794') in 0.024473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UVNF/xNode/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt
-  artifactKey: Guid(85f6f570600a1a44d8e734cb111a8b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/xNode/Scripts/Editor/Resources/ScriptTemplates/xNode_NodeTemplate.cs.txt using Guid(85f6f570600a1a44d8e734cb111a8b89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f4168b6f2fbfe80059bfd94a6655ecf3') in 0.022486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Editor/UVNF/VariableManagerEditor.cs
-  artifactKey: Guid(7a93cf10c4d873b4c8deefefc6f2fe12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/VariableManagerEditor.cs using Guid(7a93cf10c4d873b4c8deefefc6f2fe12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '20b73e396234ac802ae31b3e0e31a9b9') in 0.018621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UVNF/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b586d9892b5c7aa010ba55ef0853314') in 0.030122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Talk_OpenMouth_EyesClosed.png
-  artifactKey: Guid(8da1c193040dc494eb3cb75c05325702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Uvie/Uvie_Stand_Talk_OpenMouth_EyesClosed.png using Guid(8da1c193040dc494eb3cb75c05325702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '176b7d80acda4b549439363c2659e63b') in 0.038454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Utility/Log.png
-  artifactKey: Guid(4a6abdc9248806b4980ea7d61068de3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/ItemSprites/Utility/Log.png using Guid(4a6abdc9248806b4980ea7d61068de3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4d429e4923c6fcd260a30bfbfc0a6bbc') in 0.038064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Joy_Eyes_Open.png
-  artifactKey: Guid(ad3b85a565737424d8807f618f648db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Joy_Eyes_Open.png using Guid(ad3b85a565737424d8807f618f648db7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '14be6f34989a906120d3d22b0520899e') in 0.041850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk_Smile.png
-  artifactKey: Guid(c9ba3a579969eca44a7b61df5e6ce4ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Stand_Talk_Smile.png using Guid(c9ba3a579969eca44a7b61df5e6ce4ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '232c1b0d705a89d7b9ae5bb3805ad213') in 0.042114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Talk_Explaining.png
-  artifactKey: Guid(f91d8bf8ff07a524daf224c05d3a9ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Talk_Explaining.png using Guid(f91d8bf8ff07a524daf224c05d3a9ae2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ab71be5339b167a2cdb54ed0adbb85b6') in 0.037542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/UVNF/Sprites/UI/FullLogo.png
-  artifactKey: Guid(a8899c3d5af6fc0409afe26e5dca1036) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Sprites/UI/FullLogo.png using Guid(a8899c3d5af6fc0409afe26e5dca1036) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f5a604a6dcf90a13b12da5fbb1c325c4') in 0.049125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Excited.png
-  artifactKey: Guid(250b840dab1251a479c7d45c20e6bc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Excited.png using Guid(250b840dab1251a479c7d45c20e6bc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4e1f3916ac5b11c9101490b7643e39d3') in 0.036526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/UVNF/Prefabs/BackgroundCanvas.prefab
-  artifactKey: Guid(b6fe90de9ce1a5e4eb188a83fdc28a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF/Prefabs/BackgroundCanvas.prefab using Guid(b6fe90de9ce1a5e4eb188a83fdc28a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0f22cc6aeafac42475dacc7d326325d6') in 0.031948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Audio.png
-  artifactKey: Guid(3a796b2db7690f24b854a3a2a7fdb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Editor/UVNF/GUISkins/UVNFStoryElementSprites/Audio.png using Guid(3a796b2db7690f24b854a3a2a7fdb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8e77580a1ae858d0807a1ffb6ad5360f') in 0.041847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UVNF - ExampleResources/Character/Novle/Novle_Sly.png
-  artifactKey: Guid(f53f518d941df0c438cebf9b7064fce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/UVNF - ExampleResources/Character/Novle/Novle_Sly.png using Guid(f53f518d941df0c438cebf9b7064fce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'aba691e70f8603b4b7d50a60f431ac14') in 0.046876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.2 KB). Loaded Objects now: 2186.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 4.372100 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.063300 ms MarkObjects: 4.008300 ms  DeleteObjects: 0.110900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1386ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (219ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.2 KB). Loaded Objects now: 2189.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 4.007800 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.126700 ms MarkObjects: 3.586400 ms  DeleteObjects: 0.114700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 2192.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 3.850400 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.057300 ms MarkObjects: 3.502900 ms  DeleteObjects: 0.104400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.3 KB). Loaded Objects now: 2195.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 3.958500 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.069100 ms MarkObjects: 3.562400 ms  DeleteObjects: 0.115400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.3 KB). Loaded Objects now: 2198.
+Memory consumption went from 85.3 MB to 85.3 MB.
+Total: 4.223800 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.063700 ms MarkObjects: 3.749100 ms  DeleteObjects: 0.113600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.605 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.902 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.3 KB). Loaded Objects now: 2201.
+Memory consumption went from 85.4 MB to 85.4 MB.
+Total: 5.087100 ms (FindLiveObjects: 0.198700 ms CreateObjectMapping: 0.133900 ms MarkObjects: 4.648600 ms  DeleteObjects: 0.104200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at XNodeEditor.NodeEditorAssetModProcessor.OnReloadEditor () [0x0004b] in C:\Users\aregg\Documents\unity_projects\UVNF\UVNF\Assets\UVNF\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs:50 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <b89873cb176e44a995a4781c7487d410>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <b89873cb176e44a995a4781c7487d410>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <b89873cb176e44a995a4781c7487d410>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <97436df440ca462884c5332c1d8ebbe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.790 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (263ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (791ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (33.3 KB). Loaded Objects now: 2204.
+Memory consumption went from 85.4 MB to 85.4 MB.
+Total: 5.701000 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.084400 ms MarkObjects: 5.095100 ms  DeleteObjects: 0.118600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

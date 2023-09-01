@@ -18,6 +18,7 @@ namespace UVNF.Core.Story.Character
         public string CharacterName;
         public ScenePositions ExitPosition;
         public float ExitTime;
+        public bool Wait;
 
 #if UNITY_EDITOR
         public override void DisplayLayout(Rect layoutRect, GUIStyle label)
@@ -25,13 +26,19 @@ namespace UVNF.Core.Story.Character
             CharacterName = EditorGUILayout.TextField("Character Name", CharacterName);
             ExitPosition = (ScenePositions)EditorGUILayout.EnumPopup("Exit Position", ExitPosition);
             ExitTime = EditorGUILayout.Slider("Exit Time", ExitTime, 1f, 10f);
+            Wait = GUILayout.Toggle(Wait, "Wait");
         }
 #endif
 
         public override IEnumerator Execute(UVNFManager managerCallback, UVNFCanvas canvas)
         {
             managerCallback.CharacterManager.RemoveCharacter(CharacterName, ExitPosition, ExitTime);
-            return null;
+            float currentTime = 0;
+            while (currentTime < ExitTime && Wait)
+            {
+                currentTime += Time.deltaTime;
+                yield return null;
+            }
         }
     }
 }

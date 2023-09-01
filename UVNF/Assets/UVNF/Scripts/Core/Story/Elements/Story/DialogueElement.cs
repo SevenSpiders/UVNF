@@ -41,7 +41,8 @@ namespace UVNF.Core.Story.Dialogue
 
             CharacterName = EditorGUILayout.TextField("Character", CharacterName);
             GUILayout.Label("Dialogue");
-            Dialogue = EditorGUILayout.TextArea(Dialogue, textAreaStyle, GUILayout.MinHeight(50));
+            // Dialogue = EditorGUILayout.TextArea(Dialogue, textAreaStyle, GUILayout.MinHeight(50));
+            Dialogue = EditorGUILayout.TextArea(Dialogue, GUILayout.MinHeight(50));
         }
 #endif
 

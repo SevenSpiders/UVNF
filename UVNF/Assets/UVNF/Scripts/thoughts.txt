@@ -1,0 +1,131 @@
+
+TODO
+    [ ] fix conditional
+    [ ] change/ extend characterData => select sprite from it
+    [ ] change/ fix variable manager
+    main screen
+
+    [ ] change sceen
+
+
+    fix dungeon divers
+    comic jam story
+    comic jam character
+
+
+
+
+mini game types
+    sliding ice
+    shoot them up
+    platformer
+    sliding block
+    maze
+    select right path
+    pokemon battle
+
+
+sliding ice design space
+
+    metaphor for though process
+        confusion (fog)
+        anxiety (anxiety)
+        memory holes?
+
+
+    block material
+        scribble
+        black goo
+        spikes
+        fire
+        ice
+    
+    breakable ice (only cross once)
+    buttons
+    moving blocks 
+    words changing
+    portals
+    second avatar moving (enemy? both need to combine?)
+    fog of confusion (clears after you pass it)
+    avatar splitting
+    destroying blocks => force of will (clearing a hurdle)
+    illusionary blocks (problems that don't exist!)
+    slime (get stuck after 2 tiles?)
+    bouncing off tiles => randomly
+    thought rivers (altering your trajectory)
+    sacrifices
+
+    tools you can use
+        positive thinking
+        a song you heard
+        a quote from a character
+
+
+
+
+tie the mini game to the monster?
+    same material
+    monster in the background 
+    certain blocks are his offspring?
+    it takes place on his body
+
+
+
+
+story
+
+    girl moving to camp 
+    try to make friends
+
+    campfire horror story
+    meet the monster 
+    => 3 days to get rid of the curse
+
+    final encounter with the monster
+
+
+    frost witch
+        => makes you turn into ice
+    
+    mist witch
+        => makes you vanish
+    
+    slime monster
+        => turns your brains into goop
+    
+    mirror monster
+        => replaces you with the mirror doppelgänger
+        => your doppelgänger comits crimes in the camp
+    
+    dread wolf
+        => manifests your fears and nightmares
+        => you have to battle your fears
+
+    the sadness
+        => saps Ellies colors
+        => mindcontrols you?
+    
+    illuisionist
+        => creates hallucinations
+        => 
+
+    winter storm
+
+
+
+
+
+
+    how does the monster interfere with her life/ the camp?
+
+        makes puzzles more difficult
+    
+
+
+
+    what does she have to do to get rid of it?
+
+        find out it's name
+        defeat it => grow strong enough
+        find its weakness (object)
+        

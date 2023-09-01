@@ -6,6 +6,7 @@ using UVNF.Extensions;
 
 namespace UVNF.Core.Story.Utility
 {
+    // [NodeWidth(200)]
     public class WaitElement : StoryElement
     {
         public override string ElementName => "Wait";
@@ -20,7 +21,7 @@ namespace UVNF.Core.Story.Utility
 #if UNITY_EDITOR
         public override void DisplayLayout(Rect layoutRect, GUIStyle label)
         {
-            WaitTime = EditorGUILayout.FloatField("Wait Time", WaitTime);
+            // WaitTime = EditorGUILayout.FloatField("Wait Time", WaitTime);
             WaitTime = EditorGUILayout.Slider("Wait Time", WaitTime, 0.1f, WaitTime > 10f ? WaitTime : 10f);
         }
 #endif

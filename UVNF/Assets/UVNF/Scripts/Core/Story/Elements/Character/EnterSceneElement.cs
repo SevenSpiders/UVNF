@@ -15,9 +15,14 @@ namespace UVNF.Core.Story.Character
 
         public override StoryElementTypes Type => StoryElementTypes.Character;
 
-        public string CharacterName;
+        public CharacterData characterData;
+        public CharacterPose pose;
 
-        public Sprite Character;
+        // Override sprite?
+        bool overrideSprite = false;
+        [HideInInspector]
+        public Sprite customSprite; // use to override characterData sprite with custom one
+
         private bool foldOut = false;
 
         public bool Flip = false;
@@ -26,50 +31,72 @@ namespace UVNF.Core.Story.Character
         public ScenePositions FinalPosition = ScenePositions.Left;
 
         public float EnterTime = 2f;
+        public bool Wait = false;   // Waits for animation to finish before proceeding
 
 #if UNITY_EDITOR
         public override void DisplayLayout(Rect layoutRect, GUIStyle label)
         {
-            CharacterName = EditorGUILayout.TextField("Character Name", CharacterName);
+            characterData = EditorGUILayout.ObjectField(characterData, typeof(CharacterData), false) as CharacterData;
+            pose = (CharacterPose)EditorGUILayout.EnumPopup("Pose", pose);
 
-            GUILayout.BeginHorizontal();
-            {
-                GUILayout.Label("Character Sprite", GUILayout.MaxWidth(147));
-                Character = EditorGUILayout.ObjectField(Character, typeof(Sprite), false) as Sprite;
+
+            // if custom pose => override with custom sprite
+            overrideSprite = (pose == CharacterPose.Custom);
+            if (overrideSprite) {
+                customSprite = EditorGUILayout.ObjectField(customSprite, typeof(Sprite), false) as Sprite;
             }
-            GUILayout.EndHorizontal();
+
 
             Flip = GUILayout.Toggle(Flip, "Flip");
+            Sprite _sprite = (overrideSprite) ? customSprite : characterData.GetSprite(pose);
 
-            if (Character != null)
+            if (_sprite != null)
             {
                 foldOut = EditorGUILayout.Foldout(foldOut, "Preview", true);
-                if (foldOut)
-                {
-                    layoutRect.position = new Vector2(layoutRect.x, layoutRect.y + 70);
-                    layoutRect.width = 1000;
-                    layoutRect.height = 500;
+                if (foldOut) {
+                    int width = 300;    // 1000
+                    int height = 200;   // 500
+                    layoutRect.position = new Vector2(0, layoutRect.y + 100);
+                    layoutRect.width = width;
+                    layoutRect.height = height;
 
-                    layoutRect.width = Character.rect.width / (Character.rect.height / 500);
                     //if (Flip) layoutRect.width = -layoutRect.width * 2;
-                    layoutRect.height = 500;
 
-                    GUI.DrawTexture(layoutRect, Character.texture, ScaleMode.ScaleToFit);
-                    GUILayout.Space(500);
+                    GUI.DrawTexture(layoutRect, _sprite.texture, ScaleMode.ScaleToFit);
+                    GUILayout.Space(height + 20);
                 }
             }
 
             EnterFromDirection = (ScenePositions)EditorGUILayout.EnumPopup("Enter From", EnterFromDirection);
             FinalPosition = (ScenePositions)EditorGUILayout.EnumPopup("Final Position", FinalPosition);
 
-            EnterTime = EditorGUILayout.Slider("Enter Time", EnterTime, 1f, 10f);
+            GUILayout.BeginHorizontal();
+            {
+                EnterTime = EditorGUILayout.FloatField("Enter Time", EnterTime);
+                 GUILayout.Space(10);
+                Wait = GUILayout.Toggle(Wait, "Wait");
+            }
+            GUILayout.EndHorizontal();
+
+            // EnterTime = EditorGUILayout.Slider("Enter Time", EnterTime, 1f, 10f);
+            
         }
 #endif
 
         public override IEnumerator Execute(UVNFManager managerCallback, UVNFCanvas canvas)
         {
-            managerCallback.CharacterManager.AddCharacter(CharacterName, Character, Flip, EnterFromDirection, FinalPosition, EnterTime);
-            return null;
+
+            Sprite _sprite = (overrideSprite) ? customSprite : characterData.GetSprite(pose);
+
+            managerCallback.CharacterManager.AddCharacter(characterData, _sprite, Flip, EnterFromDirection, FinalPosition, EnterTime);
+            
+            float currentTime = 0f;
+            while (currentTime < EnterTime && Wait)
+            {
+                currentTime += Time.deltaTime;
+                yield return null;
+            }
+            
         }
     }
 }

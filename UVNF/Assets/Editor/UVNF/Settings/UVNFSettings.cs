@@ -105,6 +105,10 @@ namespace UVNF.Editor.Settings
                 case StoryElementTypes.Other:
                     newStyle.normal.background.SetPixel(0, 0, new Color32().Other());
                     break;
+                case StoryElementTypes.MiniGame:
+                    newStyle.normal.background.SetPixel(0, 0, new Color32().Other());
+                    break;
+                
             }
 
             newStyle.normal.background.Apply();
@@ -167,6 +171,15 @@ namespace UVNF.Editor.Settings
                 style.label.normal.textColor = new Color32(56, 56, 56, 255);
 
                 _elementStyles.Add(StoryElementTypes.Other, style);
+                #endregion
+
+                #region MiniGame
+                style = GUISkin.Instantiate(EditorSettings.UVNFSkin);
+
+                style.button.normal.background = EditorSettings.OtherElementTexture;
+                style.label.normal.textColor = new Color32(56, 56, 56, 255);
+
+                _elementStyles.Add(StoryElementTypes.MiniGame, style);
                 #endregion
             }
         }

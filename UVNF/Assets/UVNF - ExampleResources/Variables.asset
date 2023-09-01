@@ -13,12 +13,29 @@ MonoBehaviour:
   m_Name: Variables
   m_EditorClassIdentifier: 
   Variables:
-  - VariableName: 
+  - VariableName: Test String
     ValueType: 0
     NumberValue: 0
+    BooleanValue: 0
+    TextValue: this is a test
+  - VariableName: TestBool
+    ValueType: 2
+    NumberValue: 87
+    BooleanValue: 0
+    TextValue: 
+  - VariableName: TestNum
+    ValueType: 1
+    NumberValue: 87
     BooleanValue: 0
     TextValue: 
   VariableValues:
   - Type: UVNF.Entities.Containers.Variables.Variable, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-    Data: '{"VariableName":"","ValueType":0,"NumberValue":0.0,"BooleanValue":false,"TextValue":""}'
+    Data: '{"VariableName":"Test String","ValueType":0,"NumberValue":0.0,"BooleanValue":false,"TextValue":"this
+      is a test"}'
+  - Type: UVNF.Entities.Containers.Variables.Variable, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Data: '{"VariableName":"TestBool","ValueType":2,"NumberValue":87.0,"BooleanValue":false,"TextValue":""}'
+  - Type: UVNF.Entities.Containers.Variables.Variable, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Data: '{"VariableName":"TestNum","ValueType":1,"NumberValue":87.0,"BooleanValue":false,"TextValue":""}'
