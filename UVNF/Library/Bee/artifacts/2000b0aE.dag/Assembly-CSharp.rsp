@@ -349,6 +349,7 @@
 "Assets/UVNF/Scripts/Core/Story/Elements/Character/ExitSceneElement.cs"
 "Assets/UVNF/Scripts/Core/Story/Elements/Character/MoveToCharacterElement.cs"
 "Assets/UVNF/Scripts/Core/Story/Elements/MiniGame/IceBlockGameElement.cs"
+"Assets/UVNF/Scripts/Core/Story/Elements/Other/EndElement.cs"
 "Assets/UVNF/Scripts/Core/Story/Elements/Other/LogElement.cs"
 "Assets/UVNF/Scripts/Core/Story/Elements/Other/StartElement.cs"
 "Assets/UVNF/Scripts/Core/Story/Elements/Scenery/ChangeBackgroundElement.cs"

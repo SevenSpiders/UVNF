@@ -158,7 +158,7 @@ namespace UVNF.Core
             _storyGraph.ConnectStoryElements();
             _currentElement = _storyGraph.GetRootStory()[0];
 
-            _currentTask = TaskManager.CreateTask(_currentElement.Execute(_manager, _canvas));
+            _currentTask = TaskManager.CreateTask(_currentElement.Execute(_manager, _canvas)); // returns IEnumerator Coroutine
             _currentTask.Finished += AdvanceStory;
 
             _currentTask.Start();

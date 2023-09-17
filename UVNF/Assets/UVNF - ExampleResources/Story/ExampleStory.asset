@@ -18,6 +18,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -8880530026178415489}
@@ -43,6 +44,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -8880530026178415489}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -1522815258023470846}
   PreviousNode:
@@ -55,6 +65,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -84,6 +103,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -7925866276808309983}
@@ -109,6 +129,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -7925866276808309983}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 7815111530212063091}
   PreviousNode:
@@ -121,6 +150,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -151,6 +189,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -7543352829120350252}
@@ -176,6 +215,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -7543352829120350252}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -7925866276808309983}
   PreviousNode:
@@ -188,6 +236,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -218,6 +275,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -6837374074360815640}
@@ -243,6 +301,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -6837374074360815640}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -8880530026178415489}
   PreviousNode:
@@ -255,6 +322,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -285,6 +361,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -6664353289656554294}
@@ -310,6 +387,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -6664353289656554294}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -2022572691547937303}
   PreviousNode:
@@ -322,6 +408,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -352,6 +447,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -6584678925603748989}
@@ -377,6 +473,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -6584678925603748989}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 5964938735606451206}
   PreviousNode:
@@ -389,6 +494,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -419,6 +533,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -6117119539053729387}
@@ -444,6 +559,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -6117119539053729387}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 5783836291669240587}
   PreviousNode:
@@ -456,6 +580,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -486,6 +619,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -5583132717968379321}
@@ -511,6 +645,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -5583132717968379321}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 6472896098518316389}
   PreviousNode:
@@ -531,9 +674,19 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
   CharacterName: Dummy_01
   ExitPosition: 1
   ExitTime: 1
+  Wait: 0
 --- !u!114 &-3599330920068850453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,6 +705,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -3599330920068850453}
@@ -577,6 +731,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -3599330920068850453}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 426794231324701066}
   PreviousNode:
@@ -597,12 +760,23 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
-  CharacterName: Dummy_02
-  Character: {fileID: 21300000, guid: 4bedf33a50e1cb049b6c13d6026399e1, type: 3}
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  characterData: {fileID: 0}
+  pose: 0
+  customSprite: {fileID: 0}
   Flip: 0
   EnterFromDirection: 3
   FinalPosition: 1
   EnterTime: 2
+  Wait: 0
 --- !u!114 &-3167965086892119289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,6 +795,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -3167965086892119289}
@@ -646,6 +821,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -3167965086892119289}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 5640366496711102671}
   PreviousNode:
@@ -658,6 +842,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -697,6 +890,7 @@ MonoBehaviour:
     - Choice1
     - Choice2
     - Choice3
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2963486305234654957}
@@ -767,6 +961,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 1
       _dynamic: 1
+    - _fieldName: TestNode
+      _node: {fileID: -2963486305234654957}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 0}
   PreviousNode:
@@ -779,6 +982,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -812,6 +1024,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2959676496126754392}
@@ -837,6 +1050,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -2959676496126754392}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 7487686641615215702}
   PreviousNode:
@@ -849,6 +1071,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -877,6 +1108,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2829197401580914606}
@@ -902,6 +1134,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -2829197401580914606}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 1924711864495957666}
   PreviousNode:
@@ -922,9 +1163,19 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
   CharacterName: Dummy_03
   ExitPosition: 1
   ExitTime: 1.4
+  Wait: 0
 --- !u!114 &-2260763046560012262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -943,6 +1194,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2260763046560012262}
@@ -968,6 +1220,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -2260763046560012262}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -6584678925603748989}
   PreviousNode:
@@ -980,6 +1241,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1010,6 +1280,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -2022572691547937303}
@@ -1035,6 +1306,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -2022572691547937303}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -2959676496126754392}
   PreviousNode:
@@ -1055,12 +1335,23 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
-  CharacterName: Velorexe
-  Character: {fileID: 1785517931, guid: b7329fd2f7652d749a8eaf17f92bddf8, type: 3}
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  characterData: {fileID: 0}
+  pose: 0
+  customSprite: {fileID: 0}
   Flip: 1
   EnterFromDirection: 0
   FinalPosition: 2
   EnterTime: 2
+  Wait: 0
 --- !u!114 &-1522815258023470846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1079,6 +1370,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -1522815258023470846}
@@ -1104,6 +1396,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -1522815258023470846}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -2963486305234654957}
   PreviousNode:
@@ -1116,6 +1417,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1145,6 +1455,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -1398034605684631682}
@@ -1170,6 +1481,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -1398034605684631682}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -7543352829120350252}
   PreviousNode:
@@ -1182,6 +1502,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1211,6 +1540,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -1091833501664612928}
@@ -1236,6 +1566,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -1091833501664612928}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 5032050557008875230}
   PreviousNode:
@@ -1248,6 +1587,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1283,6 +1631,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -883208638497975754}
@@ -1308,6 +1657,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -883208638497975754}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 2774417702196442724}
   PreviousNode:
@@ -1328,9 +1686,19 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
   CharacterName: Jocelyn
   ExitPosition: 1
   ExitTime: 1
+  Wait: 0
 --- !u!114 &-117251844290693304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,6 +1717,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: -117251844290693304}
@@ -1374,6 +1743,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: -117251844290693304}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -5583132717968379321}
   PreviousNode:
@@ -1386,6 +1764,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1472,6 +1859,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 299300065002464599}
@@ -1506,6 +1894,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 299300065002464599}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 7384384192375087222}
   PreviousNode:
@@ -1518,6 +1915,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1546,6 +1952,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 426794231324701066}
@@ -1571,6 +1978,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 426794231324701066}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -117251844290693304}
   PreviousNode:
@@ -1591,12 +2007,23 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
-  CharacterName: Dummy_03
-  Character: {fileID: 21300000, guid: 895742d32a0c74b4e97ab3560ceb40b2, type: 3}
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  characterData: {fileID: 0}
+  pose: 0
+  customSprite: {fileID: 0}
   Flip: 0
   EnterFromDirection: 0
   FinalPosition: 1
   EnterTime: 2
+  Wait: 0
 --- !u!114 &1062457426058270779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,6 +2042,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 1062457426058270779}
@@ -1640,6 +2068,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 1062457426058270779}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -6837374074360815640}
   PreviousNode:
@@ -1652,6 +2089,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1681,6 +2127,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 1616988788067540909}
@@ -1706,6 +2153,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 1616988788067540909}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -883208638497975754}
   PreviousNode:
@@ -1718,6 +2174,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1754,6 +2219,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 1924711864495957666}
@@ -1779,6 +2245,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 1924711864495957666}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 1062457426058270779}
   PreviousNode:
@@ -1791,6 +2266,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1821,6 +2305,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 2759896806774999601}
@@ -1849,6 +2334,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 2759896806774999601}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -6664353289656554294}
   PreviousNode:
@@ -1861,6 +2355,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1891,6 +2394,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 2774417702196442724}
@@ -1916,6 +2420,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 2774417702196442724}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -3167965086892119289}
   PreviousNode:
@@ -1928,6 +2441,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -1958,6 +2480,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 3219563264312694754}
@@ -1983,6 +2506,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 3219563264312694754}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 4313989843891065248}
   PreviousNode:
@@ -1995,6 +2527,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2025,6 +2566,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 3964138587138135276}
@@ -2047,6 +2589,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 3964138587138135276}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 0}
   PreviousNode:
@@ -2059,6 +2610,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2089,6 +2649,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 3994018969730546297}
@@ -2114,6 +2675,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 3994018969730546297}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -6117119539053729387}
   PreviousNode:
@@ -2134,12 +2704,23 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
-  CharacterName: Jocelyn
-  Character: {fileID: 21300000, guid: eaaf4d2d809493145b73c4f402b906db, type: 3}
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  characterData: {fileID: 0}
+  pose: 0
+  customSprite: {fileID: 0}
   Flip: 1
   EnterFromDirection: 1
   FinalPosition: 1
   EnterTime: 2
+  Wait: 0
 --- !u!114 &4249008219656854883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2158,6 +2739,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 4249008219656854883}
@@ -2169,6 +2751,15 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: NextNode
+      _node: {fileID: 4249008219656854883}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TestNode
       _node: {fileID: 4249008219656854883}
       _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -2197,6 +2788,15 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
 --- !u!114 &4313989843891065248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2215,6 +2815,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 4313989843891065248}
@@ -2240,6 +2841,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 4313989843891065248}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 3994018969730546297}
   PreviousNode:
@@ -2252,6 +2862,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2287,6 +2906,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5032050557008875230}
@@ -2312,6 +2932,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5032050557008875230}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -2260763046560012262}
   PreviousNode:
@@ -2324,6 +2953,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2353,6 +2991,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5142048429619549042}
@@ -2378,6 +3017,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5142048429619549042}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 3219563264312694754}
   PreviousNode:
@@ -2390,6 +3038,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2425,6 +3082,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5270346473795117227}
@@ -2447,6 +3105,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5270346473795117227}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 2759896806774999601}
   PreviousNode:
@@ -2459,6 +3126,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2488,6 +3164,7 @@ MonoBehaviour:
     - ConditionFails
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: ConditionFails
       _node: {fileID: 5394393326462124603}
@@ -2516,6 +3193,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5394393326462124603}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 0}
   PreviousNode:
@@ -2528,6 +3214,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2568,6 +3263,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5640366496711102671}
@@ -2593,6 +3289,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5640366496711102671}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -1091833501664612928}
   PreviousNode:
@@ -2605,6 +3310,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2635,6 +3349,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5714462002862549412}
@@ -2646,6 +3361,15 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
     - _fieldName: NextNode
+      _node: {fileID: 5714462002862549412}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TestNode
       _node: {fileID: 5714462002862549412}
       _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
@@ -2666,6 +3390,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2697,6 +3430,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5783836291669240587}
@@ -2722,6 +3456,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5783836291669240587}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 1616988788067540909}
   PreviousNode:
@@ -2734,6 +3477,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2769,6 +3521,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 5964938735606451206}
@@ -2794,6 +3547,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 5964938735606451206}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -3599330920068850453}
   PreviousNode:
@@ -2814,12 +3576,23 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
-  CharacterName: Dummy_01
-  Character: {fileID: 21300000, guid: 5a263f0efe0c15242bcc465bfaa22a6c, type: 3}
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  characterData: {fileID: 0}
+  pose: 0
+  customSprite: {fileID: 0}
   Flip: 0
   EnterFromDirection: 1
   FinalPosition: 1
   EnterTime: 2
+  Wait: 0
 --- !u!114 &6472896098518316389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2838,6 +3611,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 6472896098518316389}
@@ -2863,6 +3637,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 6472896098518316389}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -2829197401580914606}
   PreviousNode:
@@ -2883,9 +3666,19 @@ MonoBehaviour:
     _connectionType: 0
     _typeConstraint: 0
     _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
   CharacterName: Dummy_02
   ExitPosition: 1
   ExitTime: 2.5
+  Wait: 0
 --- !u!114 &7384384192375087222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2904,6 +3697,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 7384384192375087222}
@@ -2929,6 +3723,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 7384384192375087222}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: -1398034605684631682}
   PreviousNode:
@@ -2941,6 +3744,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -2971,6 +3783,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 7487686641615215702}
@@ -2996,6 +3809,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 7487686641615215702}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 5142048429619549042}
   PreviousNode:
@@ -3008,6 +3830,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 
@@ -3038,6 +3869,7 @@ MonoBehaviour:
     keys:
     - PreviousNode
     - NextNode
+    - TestNode
     values:
     - _fieldName: PreviousNode
       _node: {fileID: 7815111530212063091}
@@ -3063,6 +3895,15 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 7815111530212063091}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
   Active: 0
   Next: {fileID: 3964138587138135276}
   PreviousNode:
@@ -3075,6 +3916,15 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
     _fieldName: 
     _node: {fileID: 0}
     _typeQualifiedName: 

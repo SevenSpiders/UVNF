@@ -60,8 +60,6 @@ namespace UVNF.Core.Story.Character
                     layoutRect.width = width;
                     layoutRect.height = height;
 
-                    //if (Flip) layoutRect.width = -layoutRect.width * 2;
-
                     GUI.DrawTexture(layoutRect, _sprite.texture, ScaleMode.ScaleToFit);
                     GUILayout.Space(height + 20);
                 }

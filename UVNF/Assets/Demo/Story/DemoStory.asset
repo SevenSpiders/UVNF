@@ -672,6 +672,7 @@ MonoBehaviour:
   - {fileID: -7990688345093819416}
   - {fileID: 8073247411516942233}
   - {fileID: 9037580931035414871}
+  - {fileID: 8394024821846876144}
   StoryNames:
   - Demo Story
 --- !u!114 &1515697186894245830
@@ -1091,7 +1092,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: 7a565d4169315734cb9a393425e81f9f, type: 2}
   pose: 0
   customSprite: {fileID: 0}
-  Flip: 0
+  Flip: 1
   EnterFromDirection: 1
   FinalPosition: 1
   EnterTime: 2
@@ -1181,7 +1182,7 @@ MonoBehaviour:
   characterData: {fileID: 11400000, guid: 229ecbbe0738d144d812f8d9736a48d8, type: 2}
   pose: 0
   customSprite: {fileID: 0}
-  Flip: 1
+  Flip: 0
   EnterFromDirection: 0
   FinalPosition: 0
   EnterTime: 2
@@ -1222,7 +1223,10 @@ MonoBehaviour:
       _node: {fileID: 8073247411516942233}
       _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: PreviousNode
+        node: {fileID: 8394024821846876144}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -1266,6 +1270,86 @@ MonoBehaviour:
     _typeConstraint: 0
     _dynamic: 0
   WaitTime: 10
+--- !u!114 &8394024821846876144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dea0c640ba8ff9429c40c0004f19504, type: 3}
+  m_Name: End Element
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5336, y: 344}
+  ports:
+    keys:
+    - PreviousNode
+    - NextNode
+    - TestNode
+    values:
+    - _fieldName: PreviousNode
+      _node: {fileID: 8394024821846876144}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: NextNode
+        node: {fileID: 8073247411516942233}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextNode
+      _node: {fileID: 8394024821846876144}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TestNode
+      _node: {fileID: 8394024821846876144}
+      _typeQualifiedName: XNode.NodePort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Active: 0
+  Next: {fileID: 0}
+  PreviousNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  NextNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  TestNode:
+    _fieldName: 
+    _node: {fileID: 0}
+    _typeQualifiedName: 
+    connections: []
+    _direction: 0
+    _connectionType: 0
+    _typeConstraint: 0
+    _dynamic: 0
+  nextChapter: {fileID: 11400000, guid: ce9cd3799bc9bc34794cd3d8e3ec9e0c, type: 2}
 --- !u!114 &8690439957951235599
 MonoBehaviour:
   m_ObjectHideFlags: 0
